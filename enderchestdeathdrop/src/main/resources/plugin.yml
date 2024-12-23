@@ -2,7 +2,15 @@ name: EnderchestDeathDrop
 main: com.hackthedoc.enderchestdeathdrop.Plugin
 version: 0.0.1
 api-version: 1.21
+commands:
+  enderchestdeathdrop:
+    description: "Toggle the bypass permission to a specific player"
+    usage: "/enderchestdeathdrop <player> <on|off>"
+    permission: enderchestdeathdrop.toggle
 permissions:
+  enderchestdeathdrop.toggle:
+    description: "Allow the use of the toggle command"
+    default: op
   enderchestdeathdrop.bypass:
     description: "Allow players to bypass the drop of their enderchest at their death"
     default: false
