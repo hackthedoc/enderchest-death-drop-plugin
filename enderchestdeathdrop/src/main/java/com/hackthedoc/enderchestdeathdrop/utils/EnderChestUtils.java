@@ -8,6 +8,9 @@ import org.bukkit.inventory.ItemStack;
 public class EnderChestUtils {
     
     public static void dropContents(Player player) {
+        if (player.hasPermission("enderchestdeathdrop.bypass"))
+            return;
+
         Inventory enderChest = player.getEnderChest();
         Location location = player.getLocation();
 
