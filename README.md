@@ -8,10 +8,8 @@ Works for 1.21+ at least.
 ## Features
 
 - Drop the content of a player's enderchest at his death
-
-> Following features will be added later on
-> - Contain a bypass feature
-> - Allow operators to give/remove the bypass
+- Contain a bypass feature
+- Allow operators to give/remove the bypass
 
 ## Commands
 
