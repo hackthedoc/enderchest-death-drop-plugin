@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 public class EnderChestUtils {
     
     public static void dropContents(Player player) {
-        if (player.hasPermission("enderchestdeathdrop.bypass"))
+        if (PermissionUtils.hasBypassPermission(player))
             return;
 
         Inventory enderChest = player.getEnderChest();

@@ -17,6 +17,7 @@ Works for 1.21+ at least.
 
 ## Permissions
 
+- `enderchestdeathdrop.toggle` - Allow the use of the toggle permission command
 - `enderchestdeathdrop.bypass` - Bypass the drop of the player's enderchest at his death (default: false)
 
 ## Installation
@@ -24,3 +25,7 @@ Works for 1.21+ at least.
 1. Download the plugin jar file.
 2. Place it in the `plugins` folder of your server.
 3. Restart the server.
+
+### Requirements
+
+The plugin requiers LuckPerms to work.
