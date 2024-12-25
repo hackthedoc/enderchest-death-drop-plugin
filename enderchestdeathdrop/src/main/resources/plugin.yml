@@ -7,7 +7,8 @@ commands:
     description: "Toggle the bypass permission to a specific player"
     usage: "/enderchestdeathdrop <player> <on|off>"
     permission: enderchestdeathdrop.toggle
-    aliases: [ecdd]
+    aliases:
+      - ecdd
 permissions:
   enderchestdeathdrop.toggle:
     description: "Allow the use of the toggle command"

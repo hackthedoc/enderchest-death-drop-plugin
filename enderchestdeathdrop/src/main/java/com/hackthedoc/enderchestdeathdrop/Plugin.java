@@ -12,7 +12,8 @@ public class Plugin extends JavaPlugin {
 
   public void onEnable() {
     instance = this;
-    this.getCommand("enderchestdeathdrop").setExecutor(new TogglePermissionCommand());
+
+    getCommand("enderchestdeathdrop").setExecutor(new TogglePermissionCommand());
 
     getServer().getPluginManager().registerEvents(new DeathListener(), instance);
 
